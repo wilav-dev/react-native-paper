@@ -330,7 +330,7 @@ const Button = (
           compact && styles.compact,
           buttonStyle,
           style,
-          !isV3 && !disabled && { elevation },
+          // !isV3 && !disabled && { elevation },
         ] as ViewStyle
       }
       {...(isV3 && { elevation: elevation })}
